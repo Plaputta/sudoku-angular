@@ -14,6 +14,15 @@ gulp
 
 [Visit localhost:8080 to play!](http://localhost:8080)
 
+Or, if you prefer using Vagrant (required plugin hostmanager):
+
+## Run
+```
+vagrant up
+```
+
+[Visit sudoku.local to play!](http://sudoku.local)
+
 
 ## THINGS I COULD HAVE DONE
 - Unit testing

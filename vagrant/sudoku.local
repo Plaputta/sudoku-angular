@@ -1,0 +1,11 @@
+server {
+    server_name sudoku.local;
+    root '/vagrant/build';
+    expires off;
+
+    client_max_body_size 20M;
+
+    location ~* \.(eot|ttf|woff).*$ {
+        add_header Access-Control-Allow-Origin *;
+    }
+}
